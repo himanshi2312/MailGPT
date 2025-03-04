@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "payable-gpt",
+  "private_key_id": "cecdf8350b155ae539ba581d2966b78bcf857820",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC5k6mM+aEvMz40\nuquJ1+miPk6ZW1mZBz0lhjDDii/T8rREIlD/KYs5xQU4lUbld6qc7jlSt4Q6BxlJ\nQf3R8y4YLIZyQge5mZ4tA48HYsbX2PbwWZYsR7TXx7WuYazC7m4I3222zJ83taR3\nHAORwiAed8J1a5wQg9APKx7yjik/swL0b7IErTBKBj/L60GBeN6oM5xvh0mrBWw1\nt6qot1ey7u5r2thKWfi8KLhInHD3Df5wa2AVT8zJVUPInREcp45jkg1fpj2Wwg+k\n6Kfe6gQzwR14YoQEXEBbhSLDXokIisl0Yk6ElrecC6m+rFujFV+T41cTghpO9tCE\njQ0cFwGPAgMBAAECggEAD58Fwgourpcfq2HzQp0xhii8hl2RgzeAHC0u5FGOM8cr\nCXk3XDiWXFHgs0yi389c8Jd/rR4pkUDmY1ZHaWmQ/b6caqMdnK/5B/epYzPGDTFZ\nnWMifa5jjgO6Sr2KGgvmqJ82JbxqbU7AU2PA9n9izhhtVA5aNWxYZ+PMrRpDuqAl\ndk3AtL/3RnhAaKYVeROtLpkwJiqyJg48lkqRZlFXifzh/vl5UUg5+SlyWRokGn7h\nEWgKrzoEPpayoknT1rKZVSE3LBfnVmq3hV39zpmCnjMsqZbncSSYm1FluTceNp/t\n6l/wiZSYQpvooFdeBg8AeK/hvuS73QCV1pgsxZvQgQKBgQDvAgtnSyxwcgayc31x\n8ZdmW5Ni6MYfDMxyD9ck+Ht7H4jeLW3oBsMTZY5boMHTbhjoFqLAOdCP/oAQ9jCB\ny+9CtimSe64034acbMn7IJuyqjz1ALb3rdqaQ/m3Jl04sIaNietgieXH8NNcOjCw\nMKso+r4O2Nvs1O7r/PlGod9a4QKBgQDGxSsDLQz7zzv2Hd/GgXEglNh2r9xoLYij\nz3rBWthwLJudiagrIdPv8m0nymMs3Y3fTSQZgMItgzOvFEwp0ayRuva+RX4roNTl\n9YFO0tFPKyNw+m2YpgL5p9Uf8er5JUYigLrqsPqKqr+ABnqR64PN3Io9LgE4QT3O\nmksSpzvabwKBgQCAMzeMq1zl37PJ6nrCMJVGGR7Ach07MHFFSUvcj9AkJbETg4it\naVsfv1yRt3PgBfEkJGgd9aTyZ8+nyXYRWSM4RF+eK+swfylEJHJe2onJVtkljcGW\nrtFP5+A9Jj3gl4dEylLP0IfJLFsi4C+XgjN84qopapbkvP5+5I2NHmyg4QKBgBzy\nSblErkddfpXw882svBTKmFtwcOCbAPMaG/5chHiRhngCvALMAllHLK5GwvqdqTOD\nwGYWYjDOkpBEnHLang7680PyStV/roFup04bVW/6EEc7sQox4u0Ii/kC+f0eeIA9\nzvqum03mX8z9JIxrh95K57bRJExU8/NKdPRadlTxAoGBALFJ7CKR+7LNbubddMyG\n6giVDA8zi0ev9q5FWBmxNfWz19Kbqo94MoaYIMvNIbMd9aaQsZIBSpDA58eWbyCD\nM5eniaJBAj0uBLQtHwRa5XgfzobFthLGQ5fOBKGBe8pR2L2VuTmRn3EcltBCAcgJ\nbsa3JTDqBwR5WNHbuUNy2NBf\n-----END PRIVATE KEY-----\n",
+  "client_email": "ai-agents@payable-gpt.iam.gserviceaccount.com",
+  "client_id": "107177641370672611848",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ai-agents%40payable-gpt.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
