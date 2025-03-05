@@ -1,7 +1,7 @@
 import axios from "axios";
 import dotenv from "dotenv";
-import { getGeminiEmbeddings } from "./vectorStore"; // ✅ Ensure this is correctly imported
-import { pineconeIndex, GeminiKey, pineconeKey } from "./testEnv"; // ✅ Ensure `pineconeIndex` is properly initialized
+import { getGeminiEmbeddings } from "./vectoreStore"; // Correct import for embeddings
+import { pineconeIndex, GeminiKey, pineconeKey } from "./testEnv"; // Ensure these are properly initialized
 
 dotenv.config();
 
@@ -14,13 +14,13 @@ async function queryDocuments(query: string) {
     console.error(
       "❌ No valid query vector generated. Ensure the embedding function works correctly."
     );
-    return;
+    return [];
   }
 
   try {
     console.log("🔍 Searching Pinecone for similar documents...");
 
-    // ✅ Ensure `queryVector` is a valid array of floats
+    // Validate queryVector is a valid array of numbers
     if (
       !Array.isArray(queryVector) ||
       !queryVector.every((num) => typeof num === "number")
@@ -57,5 +57,9 @@ async function queryDocuments(query: string) {
   }
 }
 
-// ✅ Example usage
-queryDocuments("Summary of this dcoument in 500 words?");
+// Example usage
+queryDocuments("Summary of this document in 500 words?").then((results) =>
+  console.log("Query Results:", results)
+).catch((error) => console.error("Error in query:", error));
+
+export { queryDocuments }; // Export for use in other files

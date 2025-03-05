@@ -4,7 +4,7 @@
 	"main": "src/index.js",
 	"type": "module",
 	"scripts": {
-		"start": "NODE_ENV=production npx tsx build/index.js",
+		"start": "NODE_ENV=production npx tsx src/index.ts",
 		"dev": "cross-env NODE_ENV=staging npx tsx watch src/index.ts",
 		"build": "npx tsc && cp gemini_key.json build/gemini_key.json"
 	},
@@ -70,5 +70,5 @@
 	},
 	"keywords": [],
 	"description": "",
-	"repository": "https://github.com/himanshi2312/Gmail-Summariser.git"
+	"repository": "https://github.com/diceMailGPT/MailGPT"
 }

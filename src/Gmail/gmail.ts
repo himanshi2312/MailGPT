@@ -16,7 +16,7 @@ async function loadSavedCredentialsIfExist(): Promise<OAuth2Client | null> {
   try {
     const content = await fs.readFile(TOKEN_PATH);
     const credentials = JSON.parse(content.toString());
-    return google.auth.fromJSON(credentials);
+    return google.auth.fromJSON(credentials) as OAuth2Client;
   } catch (err) {
     return null;
   }
@@ -36,15 +36,17 @@ async function saveCredentials(client: any) {
 }
 
 async function authorize() {
-  let client = await loadSavedCredentialsIfExist();
+  let client: OAuth2Client | any = await loadSavedCredentialsIfExist();
   if (client) {
     return client;
   }
-  client = await authenticate({
-    scopes: SCOPES,
-    keyfilePath: CREDENTIALS_PATH,
-  });
-  if (client.credentials) {
+  else{
+    client = await authenticate({
+      scopes: SCOPES,
+      keyfilePath: CREDENTIALS_PATH,
+    });
+  }
+  if (client?.credentials) {
     await saveCredentials(client);
   }
   return client;
